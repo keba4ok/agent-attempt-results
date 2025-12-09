@@ -1,0 +1,548 @@
+{
+  "individual_stats": [
+    {
+      "log_file": "dpaia_agent_20251208_130538.txt",
+      "task_name": "Detect and resolve N+1 select problem",
+      "repo_name": "dpaia/spring-petclinic-rest",
+      "total_steps": 30,
+      "completed": false,
+      "tool_counts": {
+        "get_project_modules": 1,
+        "list_directory_tree": 6,
+        "find_jpa_entities": 1,
+        "find_files_by_name_keyword": 1,
+        "find_files_by_glob": 2,
+        "get_file_text_by_path": 14,
+        "find_spring_data_repositories": 1,
+        "search_in_files_by_text": 1,
+        "execute_terminal_command": 1,
+        "create_new_file": 1,
+        "build_project": 1
+      },
+      "error_counts": {
+        "get_project_modules": 1
+      },
+      "total_tool_calls": 30,
+      "unique_tools_used": 11,
+      "tools_used": [
+        "get_project_modules",
+        "list_directory_tree",
+        "find_jpa_entities",
+        "find_files_by_name_keyword",
+        "find_files_by_glob",
+        "get_file_text_by_path",
+        "find_spring_data_repositories",
+        "search_in_files_by_text",
+        "execute_terminal_command",
+        "create_new_file",
+        "build_project"
+      ]
+    },
+    {
+      "log_file": "dpaia_agent_20251208_130955.txt",
+      "task_name": "Detect and resolve N+1 select problem",
+      "repo_name": "dpaia/spring-petclinic-rest",
+      "total_steps": 60,
+      "completed": true,
+      "tool_counts": {
+        "get_project_modules": 1,
+        "list_directory_tree": 3,
+        "execute_terminal_command": 13,
+        "find_files_by_glob": 2,
+        "find_jpa_entities": 1,
+        "get_file_text_by_path": 13,
+        "find_spring_data_repositories": 1,
+        "find_files_by_name_keyword": 2,
+        "replace_text_in_file": 15,
+        "build_project": 4,
+        "create_new_file": 4
+      },
+      "error_counts": {
+        "get_project_modules": 1
+      },
+      "total_tool_calls": 59,
+      "unique_tools_used": 11,
+      "tools_used": [
+        "get_project_modules",
+        "list_directory_tree",
+        "execute_terminal_command",
+        "find_files_by_glob",
+        "find_jpa_entities",
+        "get_file_text_by_path",
+        "find_spring_data_repositories",
+        "find_files_by_name_keyword",
+        "replace_text_in_file",
+        "build_project",
+        "create_new_file"
+      ]
+    },
+    {
+      "log_file": "dpaia_agent_20251208_144335.txt",
+      "task_name": "Detect and resolve N+1 select problem",
+      "repo_name": "dpaia/spring-petclinic-rest",
+      "total_steps": 64,
+      "completed": false,
+      "tool_counts": {
+        "get_project_modules": 1,
+        "list_directory_tree": 11,
+        "find_jpa_entities": 1,
+        "get_file_text_by_path": 18,
+        "find_spring_data_repositories": 1,
+        "find_files_by_glob": 1,
+        "search_in_files_by_text": 2,
+        "find_files_by_name_keyword": 2,
+        "create_new_file": 5,
+        "build_project": 2,
+        "execute_terminal_command": 10,
+        "replace_text_in_file": 8,
+        "search_in_files_by_regex": 1,
+        "run_tests": 1
+      },
+      "error_counts": {
+        "get_project_modules": 1,
+        "run_tests": 1
+      },
+      "total_tool_calls": 64,
+      "unique_tools_used": 14,
+      "tools_used": [
+        "get_project_modules",
+        "list_directory_tree",
+        "find_jpa_entities",
+        "get_file_text_by_path",
+        "find_spring_data_repositories",
+        "find_files_by_glob",
+        "search_in_files_by_text",
+        "find_files_by_name_keyword",
+        "create_new_file",
+        "build_project",
+        "execute_terminal_command",
+        "replace_text_in_file",
+        "search_in_files_by_regex",
+        "run_tests"
+      ]
+    },
+    {
+      "log_file": "dpaia_agent_20251208_145017.txt",
+      "task_name": "Detect and resolve N+1 select problem",
+      "repo_name": "dpaia/spring-petclinic-rest",
+      "total_steps": 90,
+      "completed": true,
+      "tool_counts": {
+        "get_project_modules": 1,
+        "list_directory_tree": 5,
+        "execute_terminal_command": 54,
+        "find_jpa_entities": 1,
+        "find_files_by_name_keyword": 4,
+        "get_file_text_by_path": 2,
+        "get_related_domain_items": 1,
+        "create_new_file": 8,
+        "build_project": 3,
+        "replace_text_in_file": 9,
+        "run_tests": 1
+      },
+      "error_counts": {
+        "get_project_modules": 1,
+        "run_tests": 1
+      },
+      "total_tool_calls": 89,
+      "unique_tools_used": 11,
+      "tools_used": [
+        "get_project_modules",
+        "list_directory_tree",
+        "execute_terminal_command",
+        "find_jpa_entities",
+        "find_files_by_name_keyword",
+        "get_file_text_by_path",
+        "get_related_domain_items",
+        "create_new_file",
+        "build_project",
+        "replace_text_in_file",
+        "run_tests"
+      ]
+    },
+    {
+      "log_file": "dpaia_agent_20251208_150355.txt",
+      "task_name": "Detect and resolve N+1 select problem",
+      "repo_name": "dpaia/spring-petclinic-rest",
+      "total_steps": 75,
+      "completed": true,
+      "tool_counts": {
+        "get_project_modules": 1,
+        "find_jpa_entities": 1,
+        "list_directory_tree": 9,
+        "get_file_text_by_path": 24,
+        "search_in_files_by_text": 8,
+        "create_new_file": 5,
+        "execute_terminal_command": 6,
+        "build_project": 4,
+        "replace_text_in_file": 16
+      },
+      "error_counts": {
+        "get_project_modules": 1
+      },
+      "total_tool_calls": 74,
+      "unique_tools_used": 9,
+      "tools_used": [
+        "get_project_modules",
+        "find_jpa_entities",
+        "list_directory_tree",
+        "get_file_text_by_path",
+        "search_in_files_by_text",
+        "create_new_file",
+        "execute_terminal_command",
+        "build_project",
+        "replace_text_in_file"
+      ]
+    },
+    {
+      "log_file": "dpaia_agent_20251208_152432.txt",
+      "task_name": "Make OwnerController to use projections instead of full Owner entity",
+      "repo_name": "dpaia/spring-petclinic",
+      "total_steps": 68,
+      "completed": false,
+      "tool_counts": {
+        "get_project_modules": 1,
+        "list_directory_tree": 6,
+        "find_files_by_name_keyword": 2,
+        "find_jpa_entities": 1,
+        "get_file_text_by_path": 11,
+        "create_new_file": 7,
+        "replace_text_in_file": 22,
+        "search_in_files_by_text": 2,
+        "build_project": 2,
+        "run_tests": 1,
+        "execute_terminal_command": 7
+      },
+      "error_counts": {
+        "get_project_modules": 1,
+        "run_tests": 1
+      },
+      "total_tool_calls": 62,
+      "unique_tools_used": 11,
+      "tools_used": [
+        "get_project_modules",
+        "list_directory_tree",
+        "find_files_by_name_keyword",
+        "find_jpa_entities",
+        "get_file_text_by_path",
+        "create_new_file",
+        "replace_text_in_file",
+        "search_in_files_by_text",
+        "build_project",
+        "run_tests",
+        "execute_terminal_command"
+      ]
+    },
+    {
+      "log_file": "dpaia_agent_20251208_153416.txt",
+      "task_name": "Make OwnerController to use projections instead of full Owner entity",
+      "repo_name": "dpaia/spring-petclinic",
+      "total_steps": 76,
+      "completed": true,
+      "tool_counts": {
+        "get_project_modules": 1,
+        "list_directory_tree": 7,
+        "execute_terminal_command": 10,
+        "find_jpa_entity": 1,
+        "find_jpa_entities": 1,
+        "search_in_files_by_text": 6,
+        "get_file_text_by_path": 10,
+        "create_new_file": 5,
+        "replace_text_in_file": 24,
+        "find_files_by_name_keyword": 1,
+        "build_project": 4,
+        "run_tests": 1,
+        "get_file_problems": 4
+      },
+      "error_counts": {
+        "get_project_modules": 1,
+        "run_tests": 1
+      },
+      "total_tool_calls": 75,
+      "unique_tools_used": 13,
+      "tools_used": [
+        "get_project_modules",
+        "list_directory_tree",
+        "execute_terminal_command",
+        "find_jpa_entity",
+        "find_jpa_entities",
+        "search_in_files_by_text",
+        "get_file_text_by_path",
+        "create_new_file",
+        "replace_text_in_file",
+        "find_files_by_name_keyword",
+        "build_project",
+        "run_tests",
+        "get_file_problems"
+      ]
+    },
+    {
+      "log_file": "dpaia_agent_20251208_154738.txt",
+      "task_name": "Make OwnerController to use projections instead of full Owner entity",
+      "repo_name": "dpaia/spring-petclinic",
+      "total_steps": 57,
+      "completed": true,
+      "tool_counts": {
+        "get_project_modules": 1,
+        "list_directory_tree": 6,
+        "find_jpa_entities": 1,
+        "get_file_text_by_path": 12,
+        "find_files_by_name_keyword": 1,
+        "create_new_file": 5,
+        "replace_text_in_file": 20,
+        "build_project": 2,
+        "search_in_files_by_text": 1,
+        "run_tests": 1,
+        "execute_terminal_command": 6
+      },
+      "error_counts": {
+        "get_project_modules": 1,
+        "run_tests": 1
+      },
+      "total_tool_calls": 56,
+      "unique_tools_used": 11,
+      "tools_used": [
+        "get_project_modules",
+        "list_directory_tree",
+        "find_jpa_entities",
+        "get_file_text_by_path",
+        "find_files_by_name_keyword",
+        "create_new_file",
+        "replace_text_in_file",
+        "build_project",
+        "search_in_files_by_text",
+        "run_tests",
+        "execute_terminal_command"
+      ]
+    },
+    {
+      "log_file": "dpaia_agent_20251208_164136.txt",
+      "task_name": "Product Service: enable products persisting with Spring Data JDBC",
+      "repo_name": "dpaia/spring-boot-microshop",
+      "total_steps": 46,
+      "completed": true,
+      "tool_counts": {
+        "get_project_modules": 1,
+        "list_directory_tree": 11,
+        "execute_terminal_command": 10,
+        "find_files_by_name_keyword": 2,
+        "get_file_text_by_path": 12,
+        "find_files_by_glob": 5,
+        "build_project": 2,
+        "run_tests": 1,
+        "replace_text_in_file": 1
+      },
+      "error_counts": {
+        "get_project_modules": 1,
+        "run_tests": 1
+      },
+      "total_tool_calls": 45,
+      "unique_tools_used": 9,
+      "tools_used": [
+        "get_project_modules",
+        "list_directory_tree",
+        "execute_terminal_command",
+        "find_files_by_name_keyword",
+        "get_file_text_by_path",
+        "find_files_by_glob",
+        "build_project",
+        "run_tests",
+        "replace_text_in_file"
+      ]
+    },
+    {
+      "log_file": "dpaia_agent_20251208_165011.txt",
+      "task_name": "Comments and Reactions subsystem: add comments entities and service methods",
+      "repo_name": "dpaia/feature-service",
+      "total_steps": 58,
+      "completed": true,
+      "tool_counts": {
+        "get_project_modules": 1,
+        "list_directory_tree": 7,
+        "get_file_text_by_path": 15,
+        "replace_text_in_file": 12,
+        "build_project": 6,
+        "find_files_by_name_keyword": 1,
+        "create_new_file": 8,
+        "run_tests": 1,
+        "execute_terminal_command": 6
+      },
+      "error_counts": {
+        "get_project_modules": 1
+      },
+      "total_tool_calls": 57,
+      "unique_tools_used": 9,
+      "tools_used": [
+        "get_project_modules",
+        "list_directory_tree",
+        "get_file_text_by_path",
+        "replace_text_in_file",
+        "build_project",
+        "find_files_by_name_keyword",
+        "create_new_file",
+        "run_tests",
+        "execute_terminal_command"
+      ]
+    },
+    {
+      "log_file": "dpaia_agent_20251208_165652.txt",
+      "task_name": "Comments and Reactions subsystem: add comments entities and service methods",
+      "repo_name": "dpaia/feature-service",
+      "total_steps": 3,
+      "completed": false,
+      "tool_counts": {
+        "get_project_modules": 1,
+        "list_directory_tree": 1
+      },
+      "error_counts": {
+        "get_project_modules": 1
+      },
+      "total_tool_calls": 2,
+      "unique_tools_used": 2,
+      "tools_used": [
+        "get_project_modules",
+        "list_directory_tree"
+      ]
+    },
+    {
+      "log_file": "dpaia_agent_20251208_165742.txt",
+      "task_name": "Comments and Reactions subsystem: add comments entities and service methods",
+      "repo_name": "dpaia/feature-service",
+      "total_steps": 45,
+      "completed": true,
+      "tool_counts": {
+        "get_project_modules": 1,
+        "list_directory_tree": 5,
+        "get_file_text_by_path": 14,
+        "replace_text_in_file": 16,
+        "build_project": 3,
+        "find_files_by_name_keyword": 1,
+        "create_new_file": 1,
+        "run_tests": 1,
+        "execute_terminal_command": 2
+      },
+      "error_counts": {
+        "get_project_modules": 1,
+        "run_tests": 1
+      },
+      "total_tool_calls": 44,
+      "unique_tools_used": 9,
+      "tools_used": [
+        "get_project_modules",
+        "list_directory_tree",
+        "get_file_text_by_path",
+        "replace_text_in_file",
+        "build_project",
+        "find_files_by_name_keyword",
+        "create_new_file",
+        "run_tests",
+        "execute_terminal_command"
+      ]
+    },
+    {
+      "log_file": "dpaia_agent_20251208_170611.txt",
+      "task_name": "Comments and Reactions subsystem: add comments entities and service methods",
+      "repo_name": "dpaia/feature-service",
+      "total_steps": 41,
+      "completed": true,
+      "tool_counts": {
+        "get_project_modules": 1,
+        "list_directory_tree": 5,
+        "get_file_text_by_path": 6,
+        "execute_terminal_command": 11,
+        "find_jpa_entities": 1,
+        "build_project": 3,
+        "get_related_domain_items": 1,
+        "search_in_files_by_text": 2,
+        "create_jpa_entity": 1,
+        "generate_jpa_entity": 1,
+        "find_jpa_entity": 2,
+        "create_or_update_entity_attribute": 1,
+        "create_new_file": 2,
+        "create_spring_data_repository": 1,
+        "generate_db_migration": 1,
+        "get_jpa_entity_by_name": 1
+      },
+      "error_counts": {
+        "get_project_modules": 1
+      },
+      "total_tool_calls": 40,
+      "unique_tools_used": 16,
+      "tools_used": [
+        "get_project_modules",
+        "list_directory_tree",
+        "get_file_text_by_path",
+        "execute_terminal_command",
+        "find_jpa_entities",
+        "build_project",
+        "get_related_domain_items",
+        "search_in_files_by_text",
+        "create_jpa_entity",
+        "generate_jpa_entity",
+        "find_jpa_entity",
+        "create_or_update_entity_attribute",
+        "create_new_file",
+        "create_spring_data_repository",
+        "generate_db_migration",
+        "get_jpa_entity_by_name"
+      ]
+    }
+  ],
+  "overall_tool_counts": {
+    "get_project_modules": 13,
+    "list_directory_tree": 82,
+    "find_jpa_entities": 9,
+    "find_files_by_name_keyword": 17,
+    "find_files_by_glob": 10,
+    "get_file_text_by_path": 151,
+    "find_spring_data_repositories": 3,
+    "search_in_files_by_text": 22,
+    "execute_terminal_command": 136,
+    "create_new_file": 51,
+    "build_project": 36,
+    "replace_text_in_file": 143,
+    "search_in_files_by_regex": 1,
+    "run_tests": 8,
+    "get_related_domain_items": 2,
+    "find_jpa_entity": 3,
+    "get_file_problems": 4,
+    "create_jpa_entity": 1,
+    "generate_jpa_entity": 1,
+    "create_or_update_entity_attribute": 1,
+    "create_spring_data_repository": 1,
+    "generate_db_migration": 1,
+    "get_jpa_entity_by_name": 1
+  },
+  "overall_error_counts": {
+    "get_project_modules": 13,
+    "run_tests": 7
+  },
+  "total_logs": 13,
+  "completed_tasks": 9,
+  "total_tool_calls": 697,
+  "all_unique_tools": [
+    "build_project",
+    "create_jpa_entity",
+    "create_new_file",
+    "create_or_update_entity_attribute",
+    "create_spring_data_repository",
+    "execute_terminal_command",
+    "find_files_by_glob",
+    "find_files_by_name_keyword",
+    "find_jpa_entities",
+    "find_jpa_entity",
+    "find_spring_data_repositories",
+    "generate_db_migration",
+    "generate_jpa_entity",
+    "get_file_problems",
+    "get_file_text_by_path",
+    "get_jpa_entity_by_name",
+    "get_project_modules",
+    "get_related_domain_items",
+    "list_directory_tree",
+    "replace_text_in_file",
+    "run_tests",
+    "search_in_files_by_regex",
+    "search_in_files_by_text"
+  ]
+}
